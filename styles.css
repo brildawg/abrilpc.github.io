@@ -1,0 +1,182 @@
+/* Styles for home */
+body{
+    margin: 0;
+    margin-top: 3px;
+    background-image: url(https://embed-ssl.wistia.com/deliveries/cf7b317d742795146bd2e7662a415deb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navigation{
+    background-color: #fef6e4;
+    border: 3px solid black;
+    box-shadow: 2px 3px 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.navigation img{
+    padding: 0 25px;
+}
+
+.navigation h3,
+.navigation p {
+    display: inline-block;
+    margin: 0 10px; 
+    position: relative;
+    bottom: 20px;
+}
+.navigation h3{
+    padding-right: 50%;
+}
+.nav-links{
+    text-decoration: none;
+    color: #001858;
+
+}
+
+.nav-links:hover{
+    background-color: gold;
+    text-decoration: underline;
+    transition: 0.35s ease;
+}
+
+.content{
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+span{
+    color: red;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: #333;
+    color: #fff; 
+    padding: 2px 0; 
+}
+/* Styles for home */
+
+.intro h1{
+    text-align: center;
+    color: white;
+    margin-top: 100px
+}
+#laptops{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+}
+#laptops img{
+    border: 5px solid blue;
+    border-radius: 15px;
+}
+
+.laptop1 h1 , .laptop2 h1, .laptop3 h1, .laptop4 h1, .laptop5 h1{
+    font-size: 24px;
+    color: white;
+    margin-bottom: 8px;
+}
+
+.laptop1 p, .laptop2 p, .laptop3 p, .laptop4 p, .laptop5 p {
+    font-size: 16px;
+    color: white;   
+    margin-bottom: 20px;
+    padding: 0 25px;
+    
+}
+
+/* Styles for laptop */
+
+/* Styles for Desktop */
+#desktop{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    background-color: black;
+}
+
+#desktop img{
+    border: 5px solid blue;
+    border-radius: 15px;
+}
+
+.desktop h1, .desktop2 h1, .desktop3 h1, .desktop4 h1, .desktop5 h1{
+    font-size: 24px;
+    color: white;
+    margin-bottom: 8px;
+}
+
+.desktop p, .desktop2 p, .desktop3 p, .desktop4 p, .desktop5 p{
+    font-size: 16px;
+    color: white;   
+    margin-bottom: 20px;
+    padding: 0 25px;
+}
+/* Styles for Desktop */
+
+
+/* Styles for About */
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    background-color: black;
+}
+.about img{
+    border-top-left-radius: 50%;
+    border-top-right-radius: 15%;
+    border-bottom-left-radius: 25%;
+}
+
+.about-content h1{ 
+    font-size: 24px;
+    padding: 0 25px;
+    color: white;
+    margin-bottom: 8px;
+    background-color: black;
+}
+.about-content p{
+    font-size: 16px;
+    color: white;   
+    margin-bottom: 20px;
+    padding: 0 25px;
+}
+
+.socials{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fef6e4;
+    padding: 10px 0;
+}
+.socials img{
+    padding: 0 25px;
+}
+/* Styles for About */
+
+/* Styles for branches */
+#branch{
+    display: flex;
+    justify-content: left;
+    align-items: center; 
+    height: 70vh;
+}
+.china h1, .mexico h1, .rome h1, .india h1{
+    color: white;
+    padding: 0 15px;
+}
+.china p, .mexico p, .rome p, .india p{
+    color: white;
+    padding: 0 15px;
+}
+/* Styles for branches */
